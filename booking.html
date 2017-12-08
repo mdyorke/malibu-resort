@@ -1,0 +1,23 @@
+---
+title: Booking
+layout: page
+---
+
+<!-- Add script to header tag-->
+<script type="text/javascript" src="https://staygrid.com/js/hapi/web.js?v="181115"></script>
+<script type="text/javascript">
+    var hlWebEngine = new HotelogixWeb();
+    function drawEngine()
+    {
+        var options = {
+            container: document.getElementById("webDiv"),
+            hotelId: "QV5TX0ZSczM0XzE4MjY1X0Y1dGVyOTA4N3NfKWRoZl9kcnRlcjdfMTgyNjVfaGdmaF9nXmQ4NTQ=",
+            languageId: 1
+        };
+        hlWebEngine.draw(options);
+    }
+    hlWebEngine.run(drawEngine);
+</script>
+
+<!--Div that will hold the web engine-->
+<div id="webDiv" style="border-width: 0"></div>

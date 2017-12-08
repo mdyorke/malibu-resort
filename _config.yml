@@ -1,0 +1,9 @@
+title: Blind Pass Resort
+email:
+description:
+url: localhost:4000
+markdown: kramdown
+
+collections:
+  rooms:
+    output: false
