@@ -23,7 +23,7 @@
     {% include analytics.html %}
   {% endif %}
 </head>
-<body {% if page.body_classes %} class="{{ page.body_classes }}" {% endif %}>
+<body {% if page.body_classes %} class="{{ page.body_classes }}" {% endif %} id="top">
   {% include header.html %}
   <main id="main">
       {{ content }}
