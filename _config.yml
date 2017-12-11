@@ -4,6 +4,9 @@ description:
 url: localhost:4000
 markdown: kramdown
 
+exclude:
+  - node_modules
+
 collections:
   rooms:
     output: false
