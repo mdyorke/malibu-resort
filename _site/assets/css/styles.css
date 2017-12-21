@@ -863,6 +863,11 @@ header #logo {
   margin-top: 10px;
 }
 
+header #logo img{
+  height: 35px;
+  width: auto;
+}
+
 header #logo a {
   display: block;
 }
@@ -914,6 +919,11 @@ header nav a.current {
   header #logo {
     max-width: 200px;
     margin-top: 14px;
+  }
+
+
+  header #logo img{
+    height: 45px;
   }
 
   header nav li:last-child a {
