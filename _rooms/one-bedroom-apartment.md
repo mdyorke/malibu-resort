@@ -2,8 +2,10 @@
 layout: default
 title: One Bedroom Apartment
 images:
-  - http://via.placeholder.com/653x365
-  - http://via.placeholder.com/653x365
+  - assets/images/rooms/apartment-1.jpg
+  - assets/images/rooms/apartment-2.jpg
+  - assets/images/rooms/apartment-3.jpg
+
 order: 3  
 ---
 

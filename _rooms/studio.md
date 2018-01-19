@@ -2,8 +2,7 @@
 layout: default
 title: Studio
 images:
-  - http://via.placeholder.com/653x365
-  - http://via.placeholder.com/653x365
+- assets/images/rooms/studio-1.jpg
 order: 2
 ---
 

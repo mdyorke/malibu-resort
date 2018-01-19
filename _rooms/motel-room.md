@@ -2,8 +2,8 @@
 layout: default
 title: Motel Room
 images:
-  - http://via.placeholder.com/653x365
-  - http://via.placeholder.com/653x365
+  - assets/images/rooms/motel-1.jpg
+  - assets/images/rooms/motel-2.jpg
 order: 1
 ---
 
