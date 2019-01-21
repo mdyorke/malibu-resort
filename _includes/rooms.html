@@ -1,31 +1,22 @@
-{% assign rooms = site.rooms | sort:"order"  %}
-
+{% assign rooms = site.rooms | sort:"order" %}
 <div id="rooms" class="r-tabs">
   <h2>Room Options</h2>
-
   <ul class="r-tabs-nav">
     {% for room in rooms %}
-      <li> <a href="#{{room.title | slugify}}">{{room.title}}</a> </li>
+      <li><a href="#{{room.title | slugify}}">{{room.title}}</a> </li>
     {% endfor %}
   </ul>
-
   {% for room in rooms %}
   <div id="{{room.title | slugify}}">
     <div class="left">
       <div class="flexslider">
-        <ul class="slides">
-          {% for image in room.images %}
-            <li><img src="{{ image }}"></li>
-          {% endfor %}
-        </ul>
+        <ul class="slides"> {% for image in room.images %} <li><img src="{{ image }}"></li> {% endfor %} </ul>
       </div>
       <div class="field-body">
         {{ room.content }}
       </div>
     </div>
-    <div class="right">
-    {% include amenities.html %}
-    </div>
+    <div class="right">{% include amenities.html %} </div>
   </div>
   {% endfor %}
 </div>
